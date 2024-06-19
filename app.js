@@ -1,5 +1,3 @@
-///yellow, blue, red, green 
-
 const yellowBox= document.querySelectorAll('.yellowBox');
 const greenBox= document.querySelectorAll('.greenBox');
 const blueBox= document.querySelectorAll('.blueBox');
@@ -9,15 +7,39 @@ let yellowEmojis= ['👶🏽','💜','🧸'];
 
 
 if(yellowBox.length=== yellowEmojis.length){
-
     yellowBox.forEach((element, index) => {
-
         element.addEventListener('mouseover', ()=>{
                 element.textContent= yellowEmojis[index];
             })
         })
     };
 
+let redEmojis= ['🐶', '​🇻🇪​', '🏖️​' ];
 
+if(redBox.length===redEmojis.length){
+    redBox.forEach((element, index) => {
+        element.addEventListener('mouseover', ()=>{
+            element.textContent= redEmojis[index];
+        })        
+    });
+}
 
-////Puedo hacer un array con los íconos con un index ++ conforme vaya pasando el mouse por encima
+let blueEmojis= ['💻​', '🎶​', '👨🏾‍💻​', '🏠​'];
+
+if(blueBox.length===blueEmojis.length){
+    blueBox.forEach((element, index) => {
+        element.addEventListener('mouseover', ()=>{
+            element.textContent= blueEmojis[index];
+        })        
+    });
+}
+
+let greenEmojis= ['😎​', '🏎️'];
+
+if(greenBox.length===greenEmojis.length){
+    greenBox.forEach((element, index) => {
+        element.addEventListener('mouseover', ()=>{
+            element.textContent= greenEmojis[index];
+        })        
+    });
+}
