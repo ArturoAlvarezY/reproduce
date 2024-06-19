@@ -1,8 +1,31 @@
-.MyContainer{
+.container{
     display: grid;
-    grid-template-rows: 4;
+    grid-template-columns: repeat(5, 30%);
+    height: 20rem
+}
+.yellowBox {
+    background-color: #fdd835;
+    
 }
 
-.box1{
-    background-color: red
+.blueBox {
+    background-color: #4fc3f7;
 }
+
+.redBox {
+    background-color: #ef5350;
+}
+
+.greenBox {
+    background-color: #66bb6a;
+}
+
+/*Colors: 
+
+yellow:
+
+blue:
+
+red:
+
+green: 
