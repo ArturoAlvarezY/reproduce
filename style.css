@@ -5,27 +5,28 @@
 }
 .yellowBox {
     background-color: #fdd835;
-    
+      padding-top: 30px;
+    padding-left: 140px;
+    font-size:30px;
 }
 
 .blueBox {
     background-color: #4fc3f7;
+     padding-top: 30px;
+    padding-left: 140px;
+    font-size:30px;
 }
 
 .redBox {
     background-color: #ef5350;
+    padding-top: 30px;
+    padding-left: 140px;
+    font-size:30px;
 }
 
 .greenBox {
     background-color: #66bb6a;
+     padding-top: 30px;
+    padding-left: 140px;
+    font-size:30px;
 }
-
-/*Colors: 
-
-yellow:
-
-blue:
-
-red:
-
-green: 
